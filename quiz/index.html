@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Title of Web Page -->
-    <title>New Site</title>
+    <title>QUIZ ME</title>
     <!-- Meta Viewport Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS CDN -->  
@@ -13,30 +13,37 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1 class="quiz-title">QUIZ ME</h1>
+    <div class="quizWrapper">
+        <h1 class="quiz-title">QUIZ ME</h1>
+        
+        <img class="top" src="https://wallup.net/wp-content/uploads/2017/11/17/191971-cityscape-minimalism-748x421.jpg" width="75%" height="75%">
 
-    <div id="score"> </div>
+        <div id="score"> </div>
 
-    <h1 class="questionIt" id="q0"></h1>
-     <!--arrays start counting at 0 making it easier to attach-->
-    <input type="text" class="userGuess">
-   <!--leaving input space blank allows javascript to add input-->
+        <h1 class="questionIt" id="q0"></h1>
+         <!--arrays start counting at 0 making it easier to attach-->
+        <input type="text" class="userGuess">
+       <!--leaving input space blank allows javascript to add input-->
 
-    <h1 class="questionIt" id="q1"></h1>
-    <input type="text" class="userGuess">
+        <h1 class="questionIt" id="q1"></h1>
+        <input type="text" class="userGuess">
 
-    <h1 class="questionIt" id="q2"></h1>
-    <input type="text" class="userGuess">
+        <h1 class="questionIt" id="q2"></h1>
+        <input type="text" class="userGuess">
 
-    <h1 class="questionIt" id="q3"></h1>
-    <input type="text" class="userGuess">
+        <h1 class="questionIt" id="q3"></h1>
+        <input type="text" class="userGuess">
 
-    <h1 class="questionIt" id="q4"></h1>
-    <input type="text" class="userGuess">
+        <h1 class="questionIt" id="q4"></h1>
+        <input type="text" class="userGuess">
+        
+<br />
+    <img class="bottom" src="https://img0.etsystatic.com/191/0/8445237/il_fullxfull.1400602660_3sh1.jpg" width="75%" height="50%">
 
 <br />
-    <button type="button" onclick="checkAnswers();">Check Answers!!</button>
+    <button class="checkAnswers" type="button" onclick="checkAnswers();">Check Answers!!</button>
     <!-- Custom JS -->
     <script type="text/javascript" src="js/main.js"></script>
+    </div>
 </body>
 </html>

@@ -6,6 +6,7 @@
 body{
 	margin:0 auto;
 	background-image:url("../img/geochange.gif");
+	background-attachment: fixed;
 	background-image: opacity(0.70);
 	width:50%;
 	text-align:center;
@@ -15,19 +16,34 @@ body{
 	display:none;
 	width:200px;
 	height:200px;
-	border:15px solid black;
+	border:15px .5px solid white;
+	margin:0 auto;
+	background-image: url("../img/box.jpg");
+	background-size: cover;
 }
+button.checkAnswers{
+	margin:0 auto;
 
-button.checkanswers{
-	right:50px;
-	position:absolute;
 	padding:10px;
+}
+.quizWrapper{
+	background-color: rgba(255, 255, 255, .6);
+	/*width: fit-content; will fit elements to content or background*/
 }
 .quiz-title{
 	font-family: font1;
 	font-size:100px;
 }
-
+.imgs{
+	margin:0 auto;
+	display:inline-block;
+}
+.bottom{
+	padding:10px;
+}
+input.userGuess{
+	padding:20px;
+}
 .questionIt{
 	font-family: font1;
 	font-size:30px;
